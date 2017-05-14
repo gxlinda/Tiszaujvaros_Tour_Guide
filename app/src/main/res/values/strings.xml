@@ -1,0 +1,45 @@
+<resources>
+    <!-- Title for the application. [CHAR LIMIT=12] -->
+    <string name="app_name">Tiszaújváros Tour Guide</string>
+
+    <!-- Category name for restaurants [CHAR LIMIT=20] -->
+    <string name="category_restaurants">Eat</string>
+
+    <!-- Category name for bars [CHAR LIMIT=20] -->
+    <string name="category_bars">Drink</string>
+
+    <!-- Category name shops [CHAR LIMIT=20] -->
+    <string name="category_shops">Shop</string>
+
+    <!-- Category name for hotels [CHAR LIMIT=20] -->
+    <string name="category_hotels">Sleep</string>
+
+    <string name="name_1">Scarpa Étterem és Pizzéria</string>
+    <string name="address_1">Szent István út 33.</string>
+    <string name="description_1">Egy hangulatos, divatos, fiatalos éttermet, mely jól illik a tiszaújvárosi pezsgő kulturális életébe. Az arculat kialakításánál fontosnak tartották ötvözni az európai ízeket, aktuális éttermi trendeket, a szezonális kínálatot egy hangulatos, elegáns enteriőrrel.</string>
+
+    <string name="name_2">Ristorante Mamma Rosa</string>
+    <string name="address_2">Tisza út 19-21.</string>
+    <string name="description_2">Hagyományos olasz konyha ízletes és változatos különlegességei eredeti olasz alapanyagokból, hagyományos receptúrák szerint.</string>
+
+    <string name="name_3">Sziget Csárda</string>
+    <string name="address_3">Vizafogó köz 1.</string>
+    <string name="description_3">Kemencében sütünk ropogósra kacsát, pirosra kenyeret, kalácsot és pogácsát is. Ételeinket rusztikusan kialakított éttermünkben teraszainkon és galériánkon élőzene mellett fogyaszthatják kedves Vendégeink.</string>
+
+    <string name="name_4">Nádas Csárda</string>
+    <string name="address_4"> Szederkényi út. 4.</string>
+    <string name="description_4">Éttermünket úgy alakítottuk ki, mind belső mind külsőleg, hogy az idelátogató kedves vendégnek a hangulatos terek felidézzék a régi falusi vendéglátás korát. Bőséges étlapválasztékunk a magyar konyha különlegességei mellett felvonultatja a környező országok kedvelt ételeit is.</string>
+
+    <string name="name_5">Arany Holló Étterem</string>
+    <string name="address_5">Szent István út 16.</string>
+    <string name="description_5">Étlapunkon szereplő ételeink íz világa magyaros és nemzetközi jellegű. Itallapunk tartalmazza a hazai elvárásoknak megfelelő italféleségeket, italkülönlegességeket. Minőségi borválasztékunkban a hazai nevesebb termelők borait részesítjük előnyben.</string>
+
+    <string name="name_6">Lili Thai Étterem</string>
+    <string name="address_6">Árpád út 2.</string>
+    <string name="description_6">Missing</string>
+
+    <string name="name_7">Megzabál Gyros Bár</string>
+    <string name="address_7">Missing</string>
+    <string name="description_7">hamburger, hot-dog, gyros</string>
+
+</resources>
