@@ -15,29 +15,29 @@ import java.util.ArrayList;
 /**
  * A simple {@link Fragment} subclass.
  */
-public class RestaurantsFragment extends Fragment {
+public class BarsFragment extends Fragment {
 
 
-    public RestaurantsFragment() {
+    public BarsFragment() {
         // Required empty public constructor
     }
+
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
 
+
         View rootView = inflater.inflate(R.layout.place_list, container, false);
 
-        // Creates a list of places
+        // Create a list of places
         final ArrayList<Place> places = new ArrayList<Place>();
-        places.add(new Place(R.string.r_name_1, R.string.r_address_1, "+36309297590", "http://scarpaetterem.hu", 47.935618, 21.035159, R.string.r_description_1, R.drawable.scarpa1, R.drawable.scarpa2));
-        places.add(new Place(R.string.r_name_2, R.string.r_address_2, "+36302210238", "http://www.mammarosa.hu", 47.929097, 21.041575, R.string.r_description_2, R.drawable.mamma1, R.drawable.mamma2));
-        places.add(new Place(R.string.r_name_3, R.string.r_address_3, "+36302402257", "http://www.szigetcsarda.hu", 47.910563, 21.075745, R.string.r_description_3, R.drawable.sziget1, R.drawable.sziget2));
-        places.add(new Place(R.string.r_name_4, R.string.r_address_4, "+36706772094", "http://anadascsarda.hu", 47.928318, 21.044218, R.string.r_description_4, R.drawable.nadas1, R.drawable.nadas2));
-        places.add(new Place(R.string.r_name_5, R.string.r_address_5, "+3649540020", "http://www.aranyhollo.eoldal.hu", 47.931353, 21.035263, R.string.r_description_5, R.drawable.hollo1, R.drawable.hollo2));
-        places.add(new Place(R.string.r_name_6, R.string.r_address_6, "-", "-", 47.932562, 21.034258, R.string.r_description_6, R.drawable.lili1, R.drawable.lili2));
-        //places.add(new Place(R.string.name_7, R.string.address_7, "-", "-", 47.933086, 21.038916, R.string.description_7, R.drawable.megzabal1, R.drawable.megzabal2));
-        places.add(new Place(R.string.r_name_8, R.string.r_address_8, "+3649540134", "http://www.castellocukraszda.hu", 47.934328, 21.039482, R.string.r_description_8, R.drawable.castello1, R.drawable.castello2));
+        places.add(new Place(R.string.b_name_1, R.string.b_address_1, "+3649340331", "-", 47.932964, 21.038550, R.string.b_description_1, R.drawable.city1, R.drawable.city2));
+        places.add(new Place(R.string.b_name_2, R.string.b_address_2, "+36205710341", "-", 47.930453, 21.031434, R.string.b_description_2, R.drawable.matyas1, R.drawable.matyas2));
+        places.add(new Place(R.string.b_name_3, R.string.b_address_3, "+36705996932", "-", 47.930029, 21.032584, R.string.b_description_3, R.drawable.aszok1, R.drawable.aszok2));
+        places.add(new Place(R.string.b_name_4, R.string.b_address_4, "-", "-", 47.933518, 21.035469, R.string.b_description_4, R.drawable.sorpatika1, R.drawable.sorpatika2));
+        places.add(new Place(R.string.b_name_5, R.string.b_address_5, "+3649610736", "-", 47.929303, 21.039603, R.string.b_description_5, R.drawable.mangos1, R.drawable.mangos2));
+        places.add(new Place(R.string.b_name_6, R.string.b_address_6, "+3649341033", "-", 47.929979, 21.044980, R.string.b_description_6, R.drawable.hbh1, R.drawable.hbh2));
 
         // Creates a PlaceAdapter, whose data source is a list of Places. The
         // adapter knows how to create list items for each item in the list.

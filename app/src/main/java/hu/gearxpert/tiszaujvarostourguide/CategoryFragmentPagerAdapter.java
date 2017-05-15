@@ -22,10 +22,10 @@ public class CategoryFragmentPagerAdapter extends FragmentPagerAdapter {
     public Fragment getItem(int position) {
         if (position == 0) {
             return new RestaurantsFragment();
-      //  } else if (position == 1) {
-      //      return new BarsFragment();
-      //  } else if (position == 2) {
-      //      return new ShopsFragment();
+        } else if (position == 1) {
+            return new BarsFragment();
+        } else if (position == 2) {
+            return new ShopsFragment();
         } else {
             return new HotelsFragment();
         }

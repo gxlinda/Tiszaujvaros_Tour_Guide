@@ -1,6 +1,7 @@
 package hu.gearxpert.tiszaujvarostourguide;
 
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
@@ -31,40 +32,46 @@ public class HotelsFragment extends Fragment {
 
         // Create a list of places
         final ArrayList<Place> places = new ArrayList<Place>();
-        places.add(new Place(R.string.name_1, R.string.address_1, "+36309297590", "http://scarpaetterem.hu", 47.935827, 21.035148, R.string.description_1, R.drawable.scarpa1, R.drawable.scarpa1));
-        places.add(new Place(R.string.name_2, R.string.address_2, "+36302210238", "http://www.mammarosa.hu", 47.929291, 21.041575, R.string.description_2, R.drawable.mammarosa1, R.drawable.mammarosa1));
-        places.add(new Place(R.string.name_3, R.string.address_3, "+36309297590", "http://scarpaetterem.hu", 47.935827, 21.035148, R.string.description_3, R.drawable.scarpa1, R.drawable.scarpa1));
-        places.add(new Place(R.string.name_4, R.string.address_4, "+36309297590", "http://scarpaetterem.hu", 47.935827, 21.035148, R.string.description_4, R.drawable.scarpa1, R.drawable.scarpa1));
-        places.add(new Place(R.string.name_5, R.string.address_5, "+36309297590", "http://scarpaetterem.hu", 47.935827, 21.035148, R.string.description_5, R.drawable.scarpa1, R.drawable.scarpa1));
-        places.add(new Place(R.string.name_6, R.string.address_6, "+36309297590", "http://scarpaetterem.hu", 47.935827, 21.035148, R.string.description_6, R.drawable.scarpa1, R.drawable.scarpa1));
-        places.add(new Place(R.string.name_7, R.string.address_7, "+36309297590", "http://scarpaetterem.hu", 47.935827, 21.035148, R.string.description_7, R.drawable.scarpa1, R.drawable.scarpa1));
+        places.add(new Place(R.string.h_name_1, R.string.h_address_1, "+3649341887", "http://www.veronikahotel.hu", 47.925999, 21.042791, R.string.h_description_1, R.drawable.veronika1, R.drawable.veronika2));
+        places.add(new Place(R.string.h_name_2, R.string.h_address_2, "+3649341511", "http://hotelphonix.hu", 47.931522, 21.037803, R.string.h_description_2, R.drawable.phonix1, R.drawable.phonix2));
+        places.add(new Place(R.string.h_name_3, R.string.h_address_3, "+3649540207", "http://www.gardenpanzio.hu", 47.934709, 21.043667, R.string.h_description_3, R.drawable.garden1, R.drawable.garden2));
+        places.add(new Place(R.string.h_name_4, R.string.h_address_4, "+36303418931", "-", 47.936539, 21.030499, R.string.h_description_4, R.drawable.szalay1, R.drawable.szalay2));
+        places.add(new Place(R.string.h_name_5, R.string.h_address_5, "+36205510015", "-", 47.939945, 21.032897, R.string.h_description_5, R.drawable.kertvarosi1, R.drawable.kertvarosi2));
 
-        // Create an {@link WordAdapter}, whose data source is a list of {@link Word}s. The
+        // Creates a PlaceAdapter, whose data source is a list of Places. The
         // adapter knows how to create list items for each item in the list.
         PlaceAdapter adapter = new PlaceAdapter(getActivity(), places);
 
-        // Find the {@link ListView} object in the view hierarchy of the {@link Activity}.
-        // There should be a {@link ListView} with the view ID called list, which is declared in the
-        // word_list.xml layout file.
+        // Finds the ListView with the view ID called list, which is declared in the
+        // place_list.xml layout file.
         ListView listView = (ListView) rootView.findViewById(R.id.list);
 
-        // Make the {@link ListView} use the {@link WordAdapter} we created above, so that the
-        // {@link ListView} will display list items for each {@link Word} in the list.
+        // Makes the ListView use the PlaceAdapter, so that the ListView will display
+        // list items for each Place in the list.
         listView.setAdapter(adapter);
 
-        // Set a click listener to play the audio when the list item is clicked on
+        // Set a click listener to open a new screen when the list item is clicked on
         listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> adapterView, View view, int position, long l) {
 
-                // Get the {@link Word} object at the given position the user clicked on
+                // Get the Place object at the given position the user clicked on
                 Place place = places.get(position);
+                Intent intent = new Intent(getActivity(), InfoPage.class);
+                intent.putExtra("NAME", place.getName());
+                intent.putExtra("ADDRESS", place.getAddress());
+                intent.putExtra("PHONE_NUMBER", place.getPhoneNumber());
+                intent.putExtra("WEBPAGE", place.getWebPage());
+                intent.putExtra("DESCRIPTION", place.getDescription());
+                intent.putExtra("BIG_IMAGE", place.getBigImageResourceId());
+                intent.putExtra("MAP1", place.getMap1());
+                intent.putExtra("MAP2", place.getMap2());
+                startActivity(intent);
             }
         });
 
         return rootView;
     }
-
 
     @Override
     public void onStop() {
