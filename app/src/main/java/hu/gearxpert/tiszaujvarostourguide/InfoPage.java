@@ -43,19 +43,19 @@ public class InfoPage extends FragmentActivity implements OnMapReadyCallback {
         // Find the TextView in the layout with the ID detail_address_view, and set the address
         String address = getString(getIntent().getIntExtra("ADDRESS", 0));
         TextView addressTextView = (TextView) findViewById(R.id.detail_address_view);
-        addressTextView.setText(R.string.address + address);
+        addressTextView.setText(getString(R.string.address) + address);
 
         // Get the actual place phone number from the fragment
         // Find the TextView in the layout with the ID detail_phone_view, and set the number
-        String phoneNumber = getIntent().getStringExtra("PHONE_NUMBER");
+        String phoneNumber = getString(getIntent().getIntExtra("PHONE_NUMBER", 0));
         TextView phoneTextView = (TextView) findViewById(R.id.detail_phone_view);
-        phoneTextView.setText(R.string.phone + phoneNumber);
+        phoneTextView.setText(getString(R.string.phone) + phoneNumber);
 
         // Get the actual place web URL from the fragment
         // Find the TextView in the layout with the ID detail_web_view, and set the URL
-        String webPage = getIntent().getStringExtra("WEBPAGE");
+        String webPage = getString(getIntent().getIntExtra("WEBPAGE", 0));
         TextView webTextView = (TextView) findViewById(R.id.detail_web_view);
-        webTextView.setText(R.string.web + webPage);
+        webTextView.setText(getString(R.string.web) + webPage);
 
         // Get the actual place description from the fragment
         // Find the TextView in the layout with the ID description_view, and set the description

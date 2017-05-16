@@ -14,9 +14,9 @@
     <!-- Category name for hotels [CHAR LIMIT=20] -->
     <string name="category_hotels">Sleep</string>
 
-    <string name="address">Adress: </string>
-    <string name="phone">Phone: </string>
-    <string name="web">Web: </string>
+    <string name="address">Adress:\u0020</string>
+    <string name="phone">Phone:\u0020</string>
+    <string name="web">Web:\u0020</string>
     <string name="map_marking">Here it is!</string>
 
     <!-- Infos for Restaurants -->
@@ -82,7 +82,7 @@
     <string name="h_address_1">Szederkényi út 1/A.</string>
     <string name="h_phone_1">+3649341887</string>
     <string name="h_web_1">http://www.veronikahotel.hu</string>
-    <string name="h_description_1">Comportable rooms, own restaurant and swimming pool for your pleasure.</string>
+    <string name="h_description_1">Comfortable rooms, own restaurant and swimming pool for your pleasure.</string>
 
     <string name="h_name_2">Hotel Phőnix</string>
     <string name="h_address_2">Bethlen Gábor út 4.</string>
@@ -99,7 +99,7 @@
     <string name="h_name_4">Szalay Panzió</string>
     <string name="h_address_4">Lévay út 104.</string>
     <string name="h_phone_4">+36303418931</string>
-    <string name="h_web_4">-</string>
+    <string name="h_web_4">-h</string>
     <string name="h_description_4">Rooms for rent in the suburb of Tiszaújváros</string>
 
     <string name="h_name_5">Kertvárosi Apartman</string>
