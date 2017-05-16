@@ -23,9 +23,9 @@ public class PlaceAdapter extends ArrayAdapter<Place> {
     @Override
     public View getView(int position, View convertView, ViewGroup parent) {
         // Check if the existing view is being reused, otherwise inflate the view
-        View listItemView = convertView;
-        if (listItemView == null) {
-            listItemView = LayoutInflater.from(getContext()).inflate(
+
+        if (convertView == null) {
+            convertView = LayoutInflater.from(getContext()).inflate(
                     R.layout.list_item, parent, false);
         }
 
@@ -37,19 +37,19 @@ public class PlaceAdapter extends ArrayAdapter<Place> {
          */
 
             // Find the TextView in the layout with the ID name_text_view, and set the name
-            TextView nameTextView = (TextView) listItemView.findViewById(R.id.name_text_view);
+        TextView nameTextView = (TextView) convertView.findViewById(R.id.name_text_view);
             nameTextView.setText(currentPlace.getName());
 
             // Find the TextView in the layout with the ID address_text_view, and set the address
-            TextView addressTextView = (TextView) listItemView.findViewById(R.id.address_text_view);
+        TextView addressTextView = (TextView) convertView.findViewById(R.id.address_text_view);
             addressTextView.setText(currentPlace.getAddress());
 
 
             // Find the ImageView in the list_item.xml layout with the ID image, and set the small image
-            ImageView smallImageTextView = (ImageView) listItemView.findViewById(R.id.image);
+        ImageView smallImageTextView = (ImageView) convertView.findViewById(R.id.image);
             smallImageTextView.setImageResource(currentPlace.getSmallImageResourceId());
 
         // Return the whole list item layout
-        return listItemView;
+        return convertView;
     }
 }
