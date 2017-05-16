@@ -17,118 +17,170 @@
     <!-- Infos for Restaurants -->
     <string name="r_name_1">Scarpa Étterem és Pizzéria</string>
     <string name="r_address_1">Szent István út 33.</string>
+    <string name="r_phone_1">+36309297590</string>
+    <string name="r_web_1">http://scarpaetterem.hu</string>
     <string name="r_description_1">A cozy, trendy, youthful restaurant that suits the sparkling culture of Tiszaújváros.
         When designing the image, it was important to combine European flavors, current restaurant trends, and seasonal
         offerings with a cozy, elegant interior.</string>
 
     <string name="r_name_2">Ristorante Mamma Rosa</string>
     <string name="r_address_2">Tisza út 19-21.</string>
+    <string name="r_phone_2">+36302210238</string>
+    <string name="r_web_2">http://www.mammarosa.hu</string>
     <string name="r_description_2">Traditional Italian cuisine with delicious and varied specialties from original Italian
         ingredients, according to traditional recipes.</string>
 
     <string name="r_name_3">Sziget Csárda</string>
     <string name="r_address_3">Vizafogó köz 1.</string>
+    <string name="r_phone_3">+36302402257</string>
+    <string name="r_web_3">http://www.szigetcsarda.hu</string>
     <string name="r_description_3">Eat fried crunchy duck, fresh baked bread, which were prepared in the oven of the Csárda.
     The meals are served in a rustic restaurant, on the terrace and on the gallery, with live music.</string>
 
     <string name="r_name_4">Nádas Csárda</string>
     <string name="r_address_4">Szederkényi út. 4.</string>
+    <string name="r_phone_4">+36706772094</string>
+    <string name="r_web_4">http://anadascsarda.hu</string>
     <string name="r_description_4">The restaurant has been designed both internally and externally to recall the age
     of old rural hospitality. The abundant selection, besides the specialties of Hungarian cuisine, also offers the
     favorite dishes of the neighboring countries.</string>
 
     <string name="r_name_5">Arany Holló Étterem</string>
     <string name="r_address_5">Szent István út 16.</string>
+    <string name="r_phone_5">+3649540020</string>
+    <string name="r_web_5">http://www.aranyhollo.eoldal.hu</string>
     <string name="r_description_5">The flavor of the dishes is Hungarian and international. Drink selection contains drinks
         and drink specialties that meet domestic expectations. In the quality wine selection, wines of the most famous
         producers of the country are preferred.</string>
 
     <string name="r_name_6">Lili Thai Étterem</string>
     <string name="r_address_6">Árpád út 2.</string>
+    <string name="r_phone_6">-</string>
+    <string name="r_web_6">-</string>
     <string name="r_description_6">Cheap eastern style food</string>
 
     <string name="r_name_7">Megzabál Gyros Bár</string>
     <string name="r_address_7">Bethlen Gábor út 12.</string>
+    <string name="r_phone_7">-</string>
+    <string name="r_web_7">-</string>
     <string name="r_description_7">Take-away hamburger, hot-dog, gyros</string>
 
     <string name="r_name_8">Castello Cukrászda</string>
     <string name="r_address_8">Bethlen Gábor út 18.</string>
+    <string name="r_phone_8">+3649540134</string>
+    <string name="r_web_8">http://www.castellocukraszda.hu</string>
     <string name="r_description_8">Delicious confectionery, pastries and ice cream await the guests. The confectionery
         offers a jumping castle for children in the summer period.</string>
 
     <!-- Infos for Hotels -->
     <string name="h_name_1">Veronika Hotel és Étterem</string>
     <string name="h_address_1">Szederkényi út 1/A.</string>
+    <string name="h_phone_1">+3649341887</string>
+    <string name="h_web_1">http://www.veronikahotel.hu</string>
     <string name="h_description_1">Comportable rooms, own restaurant and swimming pool for your pleasure.</string>
 
     <string name="h_name_2">Hotel Phőnix</string>
     <string name="h_address_2">Bethlen Gábor út 4.</string>
+    <string name="h_phone_2">+3649341511</string>
+    <string name="h_web_2">http://hotelphonix.hu</string>
     <string name="h_description_2">The oldest hotel in the city, which was built in a traditional panel building.</string>
 
     <string name="h_name_3">Garden Panzió</string>
     <string name="h_address_3"> Tompa Mihály u. 44.</string>
+    <string name="h_phone_3">+3649540207</string>
+    <string name="h_web_3">http://www.gardenpanzio.hu</string>
     <string name="h_description_3">Rooms for rent in the suburb of Tiszaújváros</string>
 
     <string name="h_name_4">Szalay Panzió</string>
     <string name="h_address_4">Lévay út 104.</string>
+    <string name="h_phone_4">+36303418931</string>
+    <string name="h_web_4">-</string>
     <string name="h_description_4">Rooms for rent in the suburb of Tiszaújváros</string>
 
     <string name="h_name_5">Kertvárosi Apartman</string>
     <string name="h_address_5">Sarolta út 6.</string>
+    <string name="h_phone_5">+36205510015</string>
+    <string name="h_web_5">-</string>
     <string name="h_description_5">Rooms for rent in the suburb of Tiszaújváros</string>
 
     <!-- Infos for Bars -->
     <string name="b_name_1">City Pub Söröző</string>
     <string name="b_address_1">Bethlen Gábor út 6.</string>
+    <string name="b_phone_1">+3649340331</string>
+    <string name="b_web_1">-</string>
     <string name="b_description_1">Beer, wine, pálinka and other alcoholic drinks</string>
 
     <string name="b_name_2">Mátyás Étterem és Söröző</string>
     <string name="b_address_2">Mátyás király út 11.</string>
+    <string name="b_phone_2">+36205710341</string>
+    <string name="b_web_2">-</string>
     <string name="b_description_2">Beer, wine, pálinka and other alcoholic drinks</string>
 
     <string name="b_name_3">Ászok Söröző</string>
     <string name="b_address_3">Mátyás király út 3.</string>
+    <string name="b_phone_3">+36705996932</string>
+    <string name="b_web_3">-</string>
     <string name="b_description_3">Beer, wine, pálinka and other alcoholic drinks</string>
 
     <string name="b_name_4">Sörpatika</string>
     <string name="b_address_4">Szent István út 14.</string>
+    <string name="b_phone_4">-</string>
+    <string name="b_web_4">-</string>
     <string name="b_description_4">Beer, wine, pálinka and other alcoholic drinks</string>
 
     <string name="b_name_5">Mangos Söröző</string>
     <string name="b_address_5">Széchenyi út 13.</string>
+    <string name="b_phone_5">+3649610736</string>
+    <string name="b_web_5">-</string>
     <string name="b_description_5">Beer, wine, pálinka and other alcoholic drinks</string>
 
     <string name="b_name_6">HBH Totó-Lottó Vendéglő</string>
     <string name="b_address_6">Teleki Blanka út 8.</string>
+    <string name="b_phone_6">+3649341033</string>
+    <string name="b_web_6">-</string>
     <string name="b_description_6">Beer, wine, pálinka and other alcoholic drinks</string>
 
     <!-- Infos for Shops -->
     <string name="s_name_1">Spar Szupermarket</string>
     <string name="s_address_1">Szent István út 29/a.</string>
+    <string name="s_phone_1">+36309297590</string>
+    <string name="s_web_1">-</string>
     <string name="s_description_1">Dairy products, bakery products, foodstuffs, household chemicals.</string>
 
     <string name="s_name_2">Spar</string>
     <string name="s_address_2">Lévai József utca 2.</string>
+    <string name="s_phone_2">+36302210238</string>
+    <string name="s_web_2">-</string>
     <string name="s_description_2">Dairy products, bakery products, foodstuffs, household chemicals.</string>
 
     <string name="s_name_3">Penny Market</string>
     <string name="s_address_3">Lévay József utca 62.</string>
+    <string name="s_phone_3">+36302402257</string>
+    <string name="s_web_3">-</string>
     <string name="s_description_3">Dairy products, bakery products, foodstuffs, household chemicals</string>
 
     <string name="s_name_4">COOP Szupermarket</string>
     <string name="s_address_4">Szent István út 14.</string>
+    <string name="s_phone_4">+36706772094</string>
+    <string name="s_web_4">-</string>
     <string name="s_description_4">Dairy products, bakery products, foodstuffs, household chemicals.</string>
 
     <string name="s_name_5">COOP ABC</string>
     <string name="s_address_5">Árpád út 29.</string>
+    <string name="s_phone_5">+3649540020</string>
+    <string name="s_web_5">-</string>
     <string name="s_description_5">Dairy products, bakery products, foodstuffs, household chemicals.</string>
 
     <string name="s_name_6">Tesco Hipermarket</string>
     <string name="s_address_6">Örösi út 1/A.</string>
+    <string name="s_phone_6">-</string>
+    <string name="s_web_6">-</string>
     <string name="s_description_6">Dairy products, bakery products, foodstuffs, household chemicals, clothes, etc.</string>
 
     <string name="s_name_7">Lidl</string>
     <string name="s_address_7">Lévay József utca 118.</string>
+    <string name="s_phone_7">-</string>
+    <string name="s_web_7">-</string>
     <string name="s_description_7">Dairy products, bakery products, foodstuffs, household chemicals.</string>
 
 

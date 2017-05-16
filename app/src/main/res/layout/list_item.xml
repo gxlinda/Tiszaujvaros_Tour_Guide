@@ -33,7 +33,7 @@
             android:textAppearance="?android:textAppearanceMedium"
             android:textColor="@color/color_main_name"
             android:textStyle="bold"
-            tools:text="lutti" />
+            tools:text="név" />
 
         <TextView
             android:id="@+id/address_text_view"
@@ -44,7 +44,8 @@
             android:gravity="top"
             android:textAppearance="?android:textAppearanceMedium"
             android:textColor="@color/color_main_address"
-            tools:text="one" />
-/>
+            tools:text="cím" />
+
     </RelativeLayout>
+
 </RelativeLayout>

@@ -8,8 +8,8 @@ public class Place {
 
     private int mName;
     private int mAddress;
-    private String mPhoneNumber;
-    private String mWebPage;
+    private int mPhoneNumber;
+    private int mWebPage;
     private double mMap1;
     private double mMap2;
     private int mDescription;
@@ -25,7 +25,7 @@ public class Place {
     /**
      * Creates a new Place object with 9 parameters.
      **/
-    public Place(int name, int address, String phoneNumber, String webPage, double map1, double map2, int description, int smallImageResourceId, int bigImageResourceId) {
+    public Place(int name, int address, int phoneNumber, int webPage, double map1, double map2, int description, int smallImageResourceId, int bigImageResourceId) {
         mName = name;
         mAddress = address;
         mPhoneNumber = phoneNumber;
@@ -54,14 +54,14 @@ public class Place {
     /**
      * Get the phone number of the place.
      */
-    public String getPhoneNumber() {
+    public int getPhoneNumber() {
         return mPhoneNumber;
     }
 
     /**
      * Get the web URL of the place.
      */
-    public String getWebPage() {
+    public int getWebPage() {
         return mWebPage;
     }
 

@@ -31,13 +31,13 @@ public class ShopsFragment extends Fragment {
 
         // Creates a list of places
         final ArrayList<Place> places = new ArrayList<Place>();
-        places.add(new Place(R.string.s_name_1, R.string.s_address_1, "+36309297590", "-", 47.934096, 21.034960, R.string.s_description_1, R.drawable.spar1_1, R.drawable.spar1_2));
-        places.add(new Place(R.string.s_name_2, R.string.s_address_2, "+36302210238", "-", 47.933308, 21.0446932, R.string.s_description_2, R.drawable.spar2_1, R.drawable.spar2_2));
-        places.add(new Place(R.string.s_name_3, R.string.s_address_3, "+36302402257", "-", 47.935683, 21.038568, R.string.s_description_3, R.drawable.penny1, R.drawable.penny2));
-        places.add(new Place(R.string.s_name_4, R.string.s_address_4, "+36706772094", "-", 47.931579, 21.034584, R.string.s_description_4, R.drawable.coop1_1, R.drawable.coop1_2));
-        places.add(new Place(R.string.s_name_5, R.string.s_address_5, "+3649540020", "-", 47.933000, 21.030638, R.string.s_description_5, R.drawable.coop2_1, R.drawable.coop2_2));
-        places.add(new Place(R.string.s_name_6, R.string.s_address_6, "-", "-", 47.931852, 21.024026, R.string.s_description_6, R.drawable.tesco1, R.drawable.tesco2));
-        places.add(new Place(R.string.s_name_7, R.string.s_address_7, "-", "-", 47.937454, 21.028109, R.string.s_description_7, R.drawable.lidl1, R.drawable.lidl2));
+        places.add(new Place(R.string.s_name_1, R.string.s_address_1, R.string.s_phone_1, R.string.s_web_1, 47.934096, 21.034960, R.string.s_description_1, R.drawable.spar1_1, R.drawable.spar1_2));
+        places.add(new Place(R.string.s_name_2, R.string.s_address_2, R.string.s_phone_1, R.string.s_web_1, 47.933308, 21.0446932, R.string.s_description_2, R.drawable.spar2_1, R.drawable.spar2_2));
+        places.add(new Place(R.string.s_name_3, R.string.s_address_3, R.string.s_phone_1, R.string.s_web_1, 47.935683, 21.038568, R.string.s_description_3, R.drawable.penny1, R.drawable.penny2));
+        places.add(new Place(R.string.s_name_4, R.string.s_address_4, R.string.s_phone_1, R.string.s_web_1, 47.931579, 21.034584, R.string.s_description_4, R.drawable.coop1_1, R.drawable.coop1_2));
+        places.add(new Place(R.string.s_name_5, R.string.s_address_5, R.string.s_phone_1, R.string.s_web_1, 47.933000, 21.030638, R.string.s_description_5, R.drawable.coop2_1, R.drawable.coop2_2));
+        places.add(new Place(R.string.s_name_6, R.string.s_address_6, R.string.s_phone_1, R.string.s_web_1, 47.931852, 21.024026, R.string.s_description_6, R.drawable.tesco1, R.drawable.tesco2));
+        places.add(new Place(R.string.s_name_7, R.string.s_address_7, R.string.s_phone_1, R.string.s_web_1, 47.937454, 21.028109, R.string.s_description_7, R.drawable.lidl1, R.drawable.lidl2));
 
         // Creates a PlaceAdapter, whose data source is a list of Places. The
         // adapter knows how to create list items for each item in the list.
