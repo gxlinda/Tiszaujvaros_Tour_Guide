@@ -14,6 +14,11 @@
     <!-- Category name for hotels [CHAR LIMIT=20] -->
     <string name="category_hotels">Sleep</string>
 
+    <string name="address">Adress: </string>
+    <string name="phone">Phone: </string>
+    <string name="web">Web: </string>
+    <string name="map_marking">Here it is!</string>
+
     <!-- Infos for Restaurants -->
     <string name="r_name_1">Scarpa Étterem és Pizzéria</string>
     <string name="r_address_1">Szent István út 33.</string>

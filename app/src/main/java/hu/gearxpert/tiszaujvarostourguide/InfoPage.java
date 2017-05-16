@@ -43,19 +43,19 @@ public class InfoPage extends FragmentActivity implements OnMapReadyCallback {
         // Find the TextView in the layout with the ID detail_address_view, and set the address
         String address = getString(getIntent().getIntExtra("ADDRESS", 0));
         TextView addressTextView = (TextView) findViewById(R.id.detail_address_view);
-        addressTextView.setText("Address: " + address);
+        addressTextView.setText(R.string.address + address);
 
         // Get the actual place phone number from the fragment
         // Find the TextView in the layout with the ID detail_phone_view, and set the number
         String phoneNumber = getIntent().getStringExtra("PHONE_NUMBER");
         TextView phoneTextView = (TextView) findViewById(R.id.detail_phone_view);
-        phoneTextView.setText("Phone: " + phoneNumber);
+        phoneTextView.setText(R.string.phone + phoneNumber);
 
         // Get the actual place web URL from the fragment
         // Find the TextView in the layout with the ID detail_web_view, and set the URL
         String webPage = getIntent().getStringExtra("WEBPAGE");
         TextView webTextView = (TextView) findViewById(R.id.detail_web_view);
-        webTextView.setText("Web: " + webPage);
+        webTextView.setText(R.string.web + webPage);
 
         // Get the actual place description from the fragment
         // Find the TextView in the layout with the ID description_view, and set the description
@@ -78,7 +78,7 @@ public class InfoPage extends FragmentActivity implements OnMapReadyCallback {
 
         // Add a marker to the current place position and move the camera
         LatLng place = new LatLng(map1, map2);
-        mMap.addMarker(new MarkerOptions().position(place).title("Here it is"));
+        mMap.addMarker(new MarkerOptions().position(place).title(getString(R.string.map_marking)));
         mMap.moveCamera(CameraUpdateFactory.newLatLng(place));
         mMap.setMinZoomPreference(15.0f);
         mMap.setMaxZoomPreference(20.0f);
